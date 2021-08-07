@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="shortcut icon" href="img/coffee.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/font.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="img/logo.png" class="logo" width="80px" height="50px" alt="logo">
+            <nav >
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="QuienesSomos.html">QuienesSomos</a></li>
+                    <li><a href="Servicios.html">Servicios</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="row">
+            <div class="col">
+                <h2>Nuestros Productos</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quae commodi eum sunt ducimus autem consectetur, delectus aliquid minus, iusto ea culpa soluta, corrupti a expedita. Dolorum voluptatem aperiam adipisci.
+                Deserunt praesentium iusto facere, in repellendus eius labore libero? Maiores soluta, laborum debitis illum, tenetur, maxime commodi aspernatur enim praesentium similique fugit consequatur. Eveniet unde dolorum inventore odio perspiciatis autem.</p>
+            </div>
+            <div class="col">
+                <div class="slides">
+                    <img src="img/galeria/Rectangle 1.jpg" alt="1">
+                    <img src="img/galeria/Rectangle 2.jpg" alt="2">
+                    <img src="img/galeria/Rectangle 3.jpg" alt="3">
+                    <img src="img/galeria/Rectangle 4.jpg" alt="4">
+                    <img src="img/galeria/Rectangle 6.jpg" alt="6">
+                    <img src="img/galeria/Rectangle 7.jpg" alt="7">
+                
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="copyright">
+                <p>Copyright 2021® Buen Café | Desarrollado por Mayra</p>
+            </div>
+            <div class="img-footer">
+                <img src="img/Group 15.png" alt="">
+            </div>
+
+        </footer>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
+    <script>
+    $(function(){
+  $(".slides").slidesjs({
+    
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 5000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: false,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+      
+    </script>
+</body>
+</html>

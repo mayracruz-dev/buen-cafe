@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5e6ca;
+    background-image: url(../img/fondo\ del\ maquetado.png);
+}
+.container{
+    width: 965px;
+    background-color:#f8a488;
+    margin: auto;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.header, .logo{
+    margin: 0 20px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+
+}
+.menu li a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+    font-size: 20px;
+}
+.menu li a:hover{
+    background: lightcoral;
+
+    }
+    .col{
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 80px;
+        margin: 30px;
+    }
+    .row{
+        text-align: center;
+    }
+    .col h2{
+        color: white;
+        text-align: center;
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .formulario{
+        background: rgb(0, 0, 0, 0.2);
+        padding: 10px 20px;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+    input, textarea{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        font-size: 17px;
+        border: none;
+    }
+    textarea{
+        min-height: 100%;
+        max-height: 250px;
+        max-width: 100%;
+    }
+    #boton{
+        background: lightcoral;
+        color: #fff;
+        padding: 20px;
+    }
+    #boton:hover{
+        cursor: pointer;
+        background:#ffbd9b;
+    }
+    .footer{
+        background-color: lightcoral;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 60px;  
+    }
+
